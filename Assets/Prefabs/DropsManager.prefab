@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &190825319785654886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190825319785654887}
+  - component: {fileID: 190825319785654880}
+  m_Layer: 0
+  m_Name: DropsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190825319785654887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190825319785654886}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 5.26, y: 1.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+--- !u!114 &190825319785654880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190825319785654886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44693cf83b5928a4586b295d60e7458d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - {fileID: 1547679547628147581, guid: 5130c32ce8864e44db857fab097d16ce, type: 3}
+  - {fileID: 5211286011099704380, guid: b3c7d7f87403dd94d9dc463ed89a00cf, type: 3}
+  - {fileID: 5970858517887235870, guid: 64a1f85578894c54d9faacf4311ee88e, type: 3}
+  - {fileID: 3904883683814017684, guid: 86ea9c6f3a4ddc140b83e5983b4f7361, type: 3}
+  - {fileID: 1098282166941156149, guid: ae83e3c61b0100f458ffee3ab57b49e3, type: 3}
+  - {fileID: 1098282166941156149, guid: ae83e3c61b0100f458ffee3ab57b49e3, type: 3}
+  - {fileID: 7993829610123249869, guid: aaa935ced22f0eb44bc94706d95ed256, type: 3}
+  - {fileID: 7993829610123249869, guid: aaa935ced22f0eb44bc94706d95ed256, type: 3}
+  - {fileID: 1923900555456609578, guid: 7d713ef7047be2b48b407829562a0449, type: 3}
+  - {fileID: 1923900555456609578, guid: 7d713ef7047be2b48b407829562a0449, type: 3}
+  mark: {fileID: 1788094034265886261, guid: 6e46d58901045f14292b7c31a824e2a8, type: 3}
